@@ -34,13 +34,18 @@
 * Yearly average: ~2,000 hours
 
 ### Power Profile & Calculation
-* Active Power: ~25.0 W
-* Idle Power: ~0.5 W
-* Turned Off: 0 W
+* Active Power: ~15.0 W (Estimated)
+* Idle Power: 0.21 W
+* Turned Off: 0.09 W (~0.0 W)
 
-* Daily kWh: $$(25.0 W \times 6 h / 1000) + (0.5 W \times 18 h / 1000) = 0.15 kWh + 0.009 kWh = 0.159 kWh$$
-* Weekly kWh:$$(25.0 W \times 35 h / 1000) + (0.5 W \times 133 h / 1000) = 0.875 kWh + 0.0665 kWh = 0.9415 kWh$$
-* Yearly kWh: $$(25.0 W \times 2000 h / 1000) + (0.5 W \times 6760 h / 1000) = 50.0 kWh + 3.38 kWh = 53.38 kWh$$
+* Daily kWh:
+  $$(15.0 W \times 6 h / 1000) + (0.21 W \times 18 h / 1000) = 0.09 kWh + 0.00378 kWh = 0.09378 kWh$$
+
+* Weekly kWh:
+  $$(15.0 W \times 35 h / 1000) + (0.21 W \times 133 h / 1000) = 0.525 kWh + 0.02793 kWh = 0.55293 kWh$$
+
+* Yearly kWh:
+  $$(15.0 W \times 2000 h / 1000) + (0.21 W \times 6760 h / 1000) = 30.0 kWh + 1.4196 kWh = 31.4196 kWh$$
 
 ---
 
@@ -68,7 +73,7 @@
 | Device | Active power when in use | Power in idle mode | Power when turned off | kWh daily | kWh weekly | kWh yearly |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **iPhone 16** | 3.0 W | 0.15 W | 0 W | 0.0207 | 0.15345 | 7.014 |
-| **MacBook Air (M1)** | 25.0 W | 0.50 W | 0 W | 0.159 | 0.9415 | 53.380 |
+| **MacBook Air (M1)** | 15.0 W | 0.21 W | 0 W | 0.09378 | 0.55293 | 31.4196 |
 | **Wi-Fi Router** | 10.0 W | 8.0 W | 0 W | 0.208 | 1.456 | 75.920 |
 
 
@@ -76,4 +81,4 @@
 
 ## Reflections
 
-Comparing these three devices shows how power consumption depends on both power demand and usage duration. The iPhone 16 consumes the least energy (7.014 kWh/year), despite being used frequently. The MacBook Air (M1) consumes more than energy (53.38 kWh/year) due to its higher active power. Interestingly, the Wi-Fi router consumes the most energy (75.92 kWh/year), even though its active power is lower than that of the MacBook. This is because the router remains powered on 24 hours a day. Compared to a typical washing machine consuming approximately 80–150 kWh per year, the router's annual consumption is relatively significant. We can see how low-power devices can accumulate substantial energy consumption when operating continuously.
+Comparing these three devices shows how power consumption depends on both power demand and usage duration. The iPhone 16 consumes the least energy (7.014 kWh/year), despite being used frequently. The MacBook Air (M1) consumes more than energy (31.4196 kWh/year) due to its higher active power. Interestingly, the Wi-Fi router consumes the most energy (75.92 kWh/year), even though its active power is lower than that of the MacBook. This is because the router remains powered on 24 hours a day. Compared to a typical washing machine consuming approximately 80–150 kWh per year, the router's annual consumption is relatively significant. We can see how low-power devices can accumulate substantial energy consumption when operating continuously.
